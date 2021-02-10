@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentacar">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentACar">
+        <activity android:name=".gui.BookingInfo"></activity>
+        <activity android:name=".gui.Booking" />
+        <activity android:name=".gui.E_S_D_Car" />
+        <activity android:name=".gui.ViewCar" />
+        <activity android:name=".gui.AddCar" />
+        <activity android:name=".gui.CarInfo" />
+        <activity android:name=".gui.AdminTask" />
+        <activity android:name=".gui.CustomerSignIn" />
+        <activity android:name=".gui.CustomerSignUp" />
+        <activity android:name=".gui.AdminPage" />
+        <activity android:name=".gui.CustomerPage" />
+        <activity android:name=".gui.ContactInfo" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
